@@ -1,0 +1,8 @@
+<h1>Home</h1>
+
+<h2>Select A Team:</h2>
+<ul>
+  <% teams.each do |team| %>
+    <li><a href="/<%= team[0] %>"><%= team[0] %></a></li>
+  <% end %>
+</ul>
